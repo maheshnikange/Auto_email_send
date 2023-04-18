@@ -1,9 +1,13 @@
 
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
+# Here , we have used gmail generated app password of sender. It might get expired after some days if we dont 
+# use , hence in future get new app passowrd from future 
+
 
 # Setup port number and server name
 
